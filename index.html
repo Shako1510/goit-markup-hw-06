@@ -62,33 +62,39 @@
                         <form class="modal-form">
                             <p>Оставьте свои данные, мы вам перезвоним</p>
                             <div class="form-fild">
-                                <label for="name">Имя
+                                <label for="name" class="fild-label">Имя
                                     <svg width="18" height="18">
                                         <use href="images/symbol-defs.svg#icon-personform"></use>
                                     </svg>
                                 </label>
                                 <input type="text" name="user-name" id="name">
 
-                                <label for="tell">Телефон
+                                <label for="tell" class="fild-label">Телефон
                                     <svg width="18" height="18">
-                                        <use href="images/symbol-defs.svg#icon-personform"></use>
+                                        <use href="images/symbol-defs.svg#icon-phoneform"></use>
                                     </svg>
                                 </label>
                                 <input type="tel" name="user-tell" id="tell">
 
-                                <label for="email">Почта
+                                <label for="email" class="fild-label">Почта
                                     <svg width="18" height="18">
-                                        <use href="images/symbol-defs.svg#icon-personform"></use>
+                                        <use href="images/symbol-defs.svg#icon-emailform"></use>
                                     </svg>
                                 </label>
                                 <input type="email" name="user-email" id="email">
+
+                                <div class="modal-comment">
+                                    <label for="comment" class="fild-label">Комметарий</label>
+                                    <textarea class="comment" name="comment" id="comment"
+                                        placeholder="Введите текст"></textarea>
+                                </div>
                             </div>
 
-                            <label for="comment">Комметарий</label>
-                            <textarea name="comment" id="comment" placeholder="Введите текст"></textarea>
+                            <div class="modal-policy">
+                                <input type="checkbox" name="policy" id="policy">
+                                <label for="policy">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+                            </div>
 
-                            <input type="checkbox" name="policy" id="policy">
-                            <label for="policy">Соглашаюсь с рассылкой и принимаю Условия договора</label>
 
                             <button type="submit">Отправить
                                 <svg class="form-footer-icon" width="24" height="24">
