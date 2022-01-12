@@ -55,9 +55,10 @@ li {
     padding: 94px 0;
 }
 
-.page-header {
+/*.page-header {
     border-bottom:  1px solid #ECECEC;
-}
+}*/
+
 .container {
     width: 1200px;
     margin-left: auto;
@@ -311,13 +312,13 @@ fill: var(--background-button-hover);
     letter-spacing: 0.03em;
 
     color: var(--primary-text-color);
-    margin-top: 44px;
     margin-bottom: 12px;
 
 }
 
 .modal-form{
     width: 528px;
+    padding: 40px;
     /*outline: 1px solid teal;*/
 }
 
@@ -334,8 +335,7 @@ fill: var(--background-button-hover);
     position: relative;
     width: 448px;
     height: 40px;
-    margin-left: 46px;
-    margin-right: auto;
+    
     margin-bottom: 10px;
    
 }
@@ -345,7 +345,6 @@ fill: var(--background-button-hover);
     line-height: 1.1;
     letter-spacing: 0.01em;
     color: var(--page-text-color);
-    margin-left: 46px;
     margin-bottom: 4px;
 }
 
@@ -392,7 +391,6 @@ fill: var(--background-button-hover);
     flex-direction: column;
     width: 448px;
     height: 120px;
-    margin-left: 46px;
    
 }
 
@@ -431,7 +429,6 @@ fill: var(--background-button-hover);
 }*/
 
 .policy-box{
-    margin-left: 55px;
     margin-bottom: 30px;
     font-size: 14px;
     line-height: 1.7;
@@ -476,7 +473,7 @@ fill: var(--background-button-hover);
 .policy-box a{
     margin-left: 5px;
     color: var(--accent-text-color);
-    border-bottom: 1px solid var(--accent-text-color);
+   text-decoration: underline;
 }
 
 
@@ -490,8 +487,7 @@ fill: var(--background-button-hover);
     color: var(--title-text-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     cursor: pointer;
-    justify-content: center;
-    align-items: center;
+
 
     font-weight: bold;
     font-size: 16px;
@@ -891,7 +887,7 @@ display: block;
 }
 
 .foter-form{
-    margin-left: 93px;
+    margin-left: auto;
 }
 
 .foter-form button {
